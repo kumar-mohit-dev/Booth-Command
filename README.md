@@ -12,6 +12,20 @@
 
 ![Architecture Diagram](./architecture.png)
 
+## 📸 Platform Previews
+
+### 🌍 Admin Command Center & Map
+![Command Center Dashboard](./dashboard.png)
+
+### 📱 Worker Dispatch & GPS Verification
+![Task Dispatch Board](./dispatch.png)
+
+## 👾 Public Sentiment Analysis
+![Task Dispatch Board](./sentiment.png)
+
+## 👤 Search Through Database
+![Task Dispatch Board](./database.png)
+
 ## 🚀 Current Status: Phase 1 Prototype
 *This repository contains the Phase 1 build for the hackathon submission. We are currently actively developing Phase 2 for the final presentation.*
 
