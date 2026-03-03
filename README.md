@@ -7,10 +7,12 @@
 ![Gemini](https://img.shields.io/badge/AI-Google_Gemini_2.5-orange)
 
 > **Booth Command** is a closed-loop political operating system that transforms static voter lists into a living Knowledge Graph, utilizing headless AI to track local sentiment and mobile GPS validation to enforce strict ground-worker accountability.
-
+---
 ## 🏗️ System Architecture
 
 ![Architecture Diagram](./architecture.png)
+
+---
 
 ## 📸 Platform Previews
 
@@ -25,6 +27,11 @@
 
 ## 👤 Search Through Database
 ![Task Dispatch Board](./database.png)
+
+## 👁️ Small Sample View of Our Database
+![Task Dispatch Board](./visualisation.png)
+
+---
 
 ## 🚀 Current Status: Phase 1 Prototype
 *This repository contains the Phase 1 build for the hackathon submission. We are currently actively developing Phase 2 for the final presentation.*
