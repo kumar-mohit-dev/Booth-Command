@@ -42,13 +42,7 @@ model = genai.GenerativeModel("gemini-2.5-flash")
 
 # --- 2. X.com Cookies ---
 X_COOKIES = [
-    {"name": "auth_token", "value": "666315369ba6e229b9b92a7a58d5e5904933e566", "domain": ".x.com", "path": "/", "secure": True, "httpOnly": True},
-    {"name": "ct0", "value": "8df5d10fe6b83871736edc5ff72516868b82dee96d4ec5c2f24a05ef89e188d8004bea062bb41c923adbb9ef080b8ffcdcf08a449405f7fe00eb2c34e2d26ae0b008df7ce7608ae3ed4d38cd83f94602", "domain": ".x.com", "path": "/", "secure": True, "httpOnly": False},
-    {"name": "twid", "value": "u%3D2024891359589777408", "domain": ".x.com", "path": "/", "secure": True, "httpOnly": False},
-    {"name": "kdt", "value": "lRbHMxbbvxriBOba15MVfGqoUInioOYgSlnS54ef", "domain": ".x.com", "path": "/", "secure": True, "httpOnly": True},
-    {"name": "att", "value": "1-7NVhT0NXVBMuxfw4MSHY05s71MZXca8EGihWeW7T", "domain": ".x.com", "path": "/", "secure": True, "httpOnly": True},
-    {"name": "guest_id", "value": "v1%3A176020868692070139", "domain": ".x.com", "path": "/", "secure": True, "httpOnly": False},
-    {"name": "personalization_id", "value": "\"v1_oIDA6k9x10i4QcnHGqnYDA==\"", "domain": ".x.com", "path": "/", "secure": True, "httpOnly": False},
+    #removed
 ]
 
 # --- 3. Keyword Definitions ---
@@ -450,4 +444,5 @@ def worker_submit_task(task_id: str, proof: TaskSubmitProof):
     RETURN t.id
     """
     driver.execute_query(query, task_id=task_id, lat=proof.lat, lng=proof.lng, image=proof.proof_image_b64, database_="mcd")
+
     return {"status": "Proof submitted."}
